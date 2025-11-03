@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio de Ismael Oliveira
 
-## Getting Started
+Portfólio pessoal desenvolvido com Next.js 16, TypeScript, Tailwind CSS e Framer Motion. Apresenta projetos, habilidades e formas de contato.
 
-First, run the development server:
+## 🚀 Tecnologias
+
+- **Next.js 16** - Framework React para produção
+- **TypeScript** - Tipagem estática
+- **Tailwind CSS** - Estilização utilitária
+- **Framer Motion** - Animações suaves
+- **React Icons** - Ícones modernos
+
+## 📋 Funcionalidades
+
+- ✅ Design responsivo e moderno
+- ✅ Animações suaves com Framer Motion
+- ✅ Seções: Hero, Sobre, Projetos e Contato
+- ✅ Navegação por âncoras (single page)
+- ✅ Otimização de imagens com Next.js Image
+- ✅ SEO otimizado com metadata
+
+## 🛠️ Instalação
 
 ```bash
+# Clone o repositório
+git clone https://github.com/ismaeloliveira-projetos/ismael-portfolio.git
+
+# Entre no diretório
+cd ismael-portfolio
+
+# Instale as dependências
+npm install
+
+# Execute o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000) no navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Scripts Disponíveis
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Cria build de produção
+- `npm start` - Inicia o servidor de produção
+- `npm run lint` - Executa o linter
 
-## Learn More
+## 🚀 Deploy na Vercel
 
-To learn more about Next.js, take a look at the following resources:
+Este projeto está pronto para deploy na Vercel. Basta:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fazer push do código para o GitHub
+2. Conectar o repositório à Vercel
+3. A Vercel detectará automaticamente que é um projeto Next.js e fará o deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Ou use a CLI da Vercel:
 
-## Deploy on Vercel
+```bash
+npm i -g vercel
+vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 Estrutura do Projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+ismael-portfolio/
+├── app/
+│   ├── components/
+│   │   ├── hero.tsx
+│   │   ├── navbar.tsx
+│   │   ├── footer.tsx
+│   │   └── projectcard.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── public/
+│   └── imagens/
+├── package.json
+├── next.config.ts
+└── tsconfig.json
+```
+
+## 👤 Autor
+
+**Ismael Oliveira**
+
+- GitHub: [@ismaeloliveira-projetos](https://github.com/ismaeloliveira-projetos)
+- LinkedIn: [Ismael Oliveira](https://www.linkedin.com/in/ismael-oliveira-62446a1aa/)
+- Email: ismael22oliveira@icloud.com
+
+## 📄 Licença
+
+Este projeto é de código aberto e está disponível sob a licença MIT.
