@@ -4,9 +4,9 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between gap-10">
-      {/* Coluna da esquerda - textos */}
-      <div className="flex-1">
+    <section className="flex flex-col items-center justify-center">
+      {/* Conteúdo centralizado */}
+      <div className="flex-1 text-center md:text-left max-w-4xl">
         {/* Texto com efeito de digitação */}
         <motion.div
           initial={{ y: 20, opacity: 0 }}
@@ -47,7 +47,7 @@ export default function Hero() {
         </motion.p>
 
         {/* Botões */}
-        <div className="mt-8 flex gap-4">
+        <div className="mt-8 flex gap-4 justify-center md:justify-start">
           <a href="#projects" className="btn">
             Ver projetos
           </a>
@@ -56,16 +56,6 @@ export default function Hero() {
           </a>
         </div>
       </div>
-
-      {/* Avatar ou imagem futurista */}
-      <motion.div
-        initial={{ scale: 0.8, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ delay: 0.5 }}
-        className="w-48 h-48 md:w-64 md:h-64 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center font-semibold text-white text-2xl"
-      >
-        IO
-      </motion.div>
     </section>
   );
 }
