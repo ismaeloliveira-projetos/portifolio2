@@ -23,10 +23,10 @@ Portfólio pessoal desenvolvido com Next.js 16, TypeScript, Tailwind CSS e Frame
 
 ```bash
 # Clone o repositório
-git clone https://github.com/ismaeloliveira-projetos/ismael-portfolio.git
+git clone https://github.com/ismaeloliveira-projetos/portifolio2.git
 
 # Entre no diretório
-cd ismael-portfolio
+cd portifolio2
 
 # Instale as dependências
 npm install
